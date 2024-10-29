@@ -15,7 +15,7 @@ Tayse Rosa
 
 ---
 <p align="center">
-  <img src="readme1.jpeg" width="400">
+  <img src="readme_1.jpeg" width="400">
 </p>
 
 
