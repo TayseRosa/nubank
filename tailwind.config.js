@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        personalizada:'var(--minha-cor)'
+        nubank:'#8308d1'
       }
     },
   },
