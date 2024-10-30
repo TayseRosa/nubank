@@ -1,6 +1,7 @@
 import { View, Text, ScrollView } from 'react-native'
 import { Header } from '../components/header';
 import { ButtonCard } from '../components/button-card';
+import { ButtonAction } from '../components/button-action';
 
 
 export default function Screen(){
@@ -10,6 +11,14 @@ export default function Screen(){
             <ButtonCard title="Conta" onPress={()=>{}} >
                 <Text className='text-2xl font-semibold'> R$1.000,00 </Text>
             </ButtonCard>
+
+            <ScrollView horizontal >
+                <ButtonAction icon="pix" label="Pix" onPress={()=>{}} badge="" />
+                <ButtonAction icon="barcode" label="Pagar" onPress={()=>{}} badge="" />
+                <ButtonAction icon="hand-holding-dollar" label="Pegar emprestado" onPress={()=>{}} badge="" />
+                <ButtonAction icon="money-bill-transfer" label="Transferir" onPress={()=>{}} badge="" />
+                <ButtonAction icon="receipt" label="Dinheiro" onPress={()=>{}} badge="" />
+            </ScrollView>
         </ScrollView>
     );
 }
