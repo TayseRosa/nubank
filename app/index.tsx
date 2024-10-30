@@ -13,16 +13,16 @@ export default function Screen(){
 
             {/*Conta (Saldo)*/}
             <ButtonCard title="Conta" onPress={()=>{}} >
-                <Text className='text-2xl font-semibold'> R$1.000,00 </Text>
+                <Text className='text-2xl font-semibold'> R$1.356,98 </Text>
             </ButtonCard>
 
             {/*Main icons (pix, pagar etc..)*/}
             <ScrollView horizontal showsHorizontalScrollIndicator={false} className='px-3' >
-                <ButtonAction icon="pix" label="Pix" onPress={()=>{}} badge="" />
-                <ButtonAction icon="barcode" label="Pagar" onPress={()=>{}} badge="" />
-                <ButtonAction icon="hand-holding-dollar" label="Pegar emprestado" onPress={()=>{}} badge="R$12.300,00" />
-                <ButtonAction icon="money-bill-transfer" label="Transferir" onPress={()=>{}} badge="" />
-                <ButtonAction icon="receipt" label="Dinheiro" onPress={()=>{}} badge="" />
+                <ButtonAction icon="pix" label="Pix" onPress={()=>alert('Você clicou em PIX')} badge="" />
+                <ButtonAction icon="barcode" label="Pagar" onPress={()=>alert('Você clicou em PAGAR')} badge="" />
+                <ButtonAction icon="hand-holding-dollar" label="Pegar emprestado" onPress={()=>alert('Você clicou em PEGAR EMPRESTADO')} badge="R$12.300,00" />
+                <ButtonAction icon="money-bill-transfer" label="Transferir" onPress={()=>alert('Você clicou em TRANSFERIR')} badge="" />
+                <ButtonAction icon="receipt" label="Dinheiro" onPress={()=>alert('Você clicou em DINHEIRO')} badge="" />
             </ScrollView>
 
             {/*Meus Cartões*/}
