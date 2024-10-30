@@ -10,10 +10,13 @@ export default function Screen(){
     return(
         <ScrollView className='h-screen bg-white' >
             <Header />
+
+            {/*Conta (Saldo)*/}
             <ButtonCard title="Conta" onPress={()=>{}} >
                 <Text className='text-2xl font-semibold'> R$1.000,00 </Text>
             </ButtonCard>
 
+            {/*Main icons (pix, pagar etc..)*/}
             <ScrollView horizontal showsHorizontalScrollIndicator={false} className='px-3' >
                 <ButtonAction icon="pix" label="Pix" onPress={()=>{}} badge="" />
                 <ButtonAction icon="barcode" label="Pagar" onPress={()=>{}} badge="" />
@@ -22,6 +25,7 @@ export default function Screen(){
                 <ButtonAction icon="receipt" label="Dinheiro" onPress={()=>{}} badge="" />
             </ScrollView>
 
+            {/*Meus Cartões*/}
             <View className='px-4 py-6'>
                 <ButtonGeneral onPress={()=>{}}  >
                     <View className='flex-row items-center'>
@@ -51,6 +55,15 @@ export default function Screen(){
                     </ButtonGeneral>
                 </View>
             </ScrollView>
+
+            {/*Divisor*/}
+            <View className='h-1 bg-gray-100 mt-8 mx-4'></View>
+
+            <ButtonCard title="Cartão de crédito" onPress={()=>{}} >
+                <Text className='text-xl text-gray-500'>Fatura atual</Text>
+                <Text className='text-2xl font-semibold' >R$ 1.094,00</Text>
+                <Text className='text-xl text-gray-500'>Limite disponível: R$15.000,00</Text>
+            </ButtonCard>
 
         </ScrollView>
     );
