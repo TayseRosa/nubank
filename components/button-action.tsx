@@ -8,7 +8,7 @@ type Props = {
     badge?: string
 }
 
-export const ButtonAction = ({ icon, label, onPress, badge }) => {
+export const ButtonAction = ({ icon, label, onPress, badge }:Props) => {
     return(
         <Pressable onPress={onPress} className="w-24 mx-2 ">
             <View className="bg-gray-200 size-24 rounded-full justify-center items-center">
