@@ -12,11 +12,11 @@
 Tayse Rosa
 </a>
 <br>
-🟡 Status do projeto: Em desenvolvimento...
+🟢 Status do projeto: Concluído
 
 ---
 <p align="center">
-  <img src="readme_1.jpeg" width="400">
+  <img src="readme01.jpeg" width="400">
 </p>
 
 
@@ -26,6 +26,7 @@ Tayse Rosa
     <li>Expo</li>
     <li>Typescript</li>
     <li>NativeWind </li>
+    <li>Tailwind </li>
 </ul>
 
 
@@ -36,12 +37,6 @@ cd <nome da pasta do projeto>
 npm install
 npx expo start
 ```
-
-## 🚀 Anotações importantes
-
-
-
-
 
 ## Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
