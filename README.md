@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4D12AQGQffAIoR8XjQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1721224326539?e=2147483647&v=beta&t=W4ggamtkvEFy-WZp6Rn-fh6ehyprsL1f5-7ZBnxKbw8" width="120">
 
-  <img src="https://logodownload.org/wp-content/uploads/2019/08/nubank-logo-0-1-1536x1536.png" width="120">
+  <img src="https://logodownload.org/wp-content/uploads/2019/08/nubank-logo-0-1-1536x1536.png" width="200">
 </p>
 <h1 align="center"> Clone NuBank</h1>
 
@@ -13,7 +12,7 @@
 Tayse Rosa
 </a>
 <br>
-🟡 Status do projeto: Em desenvolvimento..
+🟡 Status do projeto: Em desenvolvimento...
 
 ---
 <p align="center">
